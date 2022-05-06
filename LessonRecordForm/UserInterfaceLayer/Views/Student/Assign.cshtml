@@ -1,0 +1,47 @@
+﻿@model EntityLayer.Student
+
+@{
+    ViewData["Title"] = "Assign";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Assign</h1>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Assign">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="StudentId" />
+            <div class="form-group">
+                <label asp-for="StudentFullName" class="control-label">@Model.StudentFullName</label>
+
+            </div>
+
+
+
+            @foreach (var item in (List<EntityLayer.Lesson>)ViewBag.Lessons)
+            {
+                <div class="form-group">
+                    <input type="checkbox" value="" class="form-check-input" value="@item.LessonId" name="lessonIds" id="lesson_@item.LessonId" @(Model.StudentLessons.Select(x=>x.Lesson).Any(x=>x.LessonId==item.LessonId)?"checked":"")/>
+                    <label class="form-check-label" for="lesson_@item.LessonId">@item.LessonName</label>
+                </div>
+            }
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
