@@ -7514,11 +7514,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\UserInterfaceLayer\\UserInterfaceLayer.csproj",
+      "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\UserInterfaceLayer\\UserInterfaceLayer.csproj",
       "projectName": "UserInterfaceLayer",
-      "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\UserInterfaceLayer\\UserInterfaceLayer.csproj",
+      "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\UserInterfaceLayer\\UserInterfaceLayer.csproj",
       "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\UserInterfaceLayer\\obj\\",
+      "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\UserInterfaceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7535,8 +7535,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

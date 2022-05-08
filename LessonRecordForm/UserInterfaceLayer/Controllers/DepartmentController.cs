@@ -15,9 +15,9 @@ namespace UserInterfaceLayer.Controllers
         {
             _repo = repo;
         }
-        public IActionResult Index()
+        public   IActionResult Index()
         {
-            return View(_repo.GetAll());
+            return View(  _repo.GetAll());
         }
         
         public IActionResult Create()

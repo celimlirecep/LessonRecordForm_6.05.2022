@@ -19,6 +19,8 @@ namespace DataAccessLayer.Concreate
             get { return _context as LessonRecordFormContext; }
         }
 
+
+
         
     }
 }

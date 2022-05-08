@@ -10,14 +10,18 @@ namespace DataAccessLayer.Concreate
 {
     public class DepartmentRepository:BaseRepository<Department>,IDepartmentRepository
     {
+    
         public DepartmentRepository(LessonRecordFormContext context):base(context)
         {
-
+           
         }
         private LessonRecordFormContext Context
         {
             get { return _context as LessonRecordFormContext; }
         }
+
+        
+        
 
     }
 }

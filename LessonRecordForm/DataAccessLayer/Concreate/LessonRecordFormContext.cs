@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concreate
 {
-    public class LessonRecordFormContext:DbContext
+    public class LessonRecordFormContext : DbContext
     {
-        
-        public LessonRecordFormContext(DbContextOptions<LessonRecordFormContext> options):base(options)
+
+        public LessonRecordFormContext(DbContextOptions<LessonRecordFormContext> options) : base(options)
         {
 
         }
@@ -31,6 +31,14 @@ namespace DataAccessLayer.Concreate
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<StudentLesson>().HasKey(x => new { x.LessonId, x.StudentId });
+
+            //modelBuilder.Entity<Student>(content =>
+            //{
+            //    content.HasOne(w => w.Department)
+            //    .WithMany(c => c.Students)
+            //    .HasForeignKey(c => c.StudentDepartmentId)
+            //    .OnDelete(DeleteBehavior.SetNull);
+            //});
         }
 
 

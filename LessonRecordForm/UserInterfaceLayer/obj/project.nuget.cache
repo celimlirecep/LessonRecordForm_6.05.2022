@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "24Xi3/GcAn5VaYW4Y51WTlSQ/eBEKEhoNojgHXn+XwPjaR0IVFf9qVbeO0QO6e61n9GxXuWSg5y0ja7bTAx4yg==",
+  "dgSpecHash": "SIL14tecM2v2tFZIKfhleOWGn6VkJzAxJMcbPngthZtiSJetq44CA31G+9OldwI855arX3mx47Aw7qiw8ZAlSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\UserInterfaceLayer\\UserInterfaceLayer.csproj",
+  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\UserInterfaceLayer\\UserInterfaceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\recep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\recep\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

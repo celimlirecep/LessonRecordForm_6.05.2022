@@ -10,3 +10,15 @@ C:\Users\recep\OneDrive\Masaüstü\WEB_Class_Projects\LessonRecordForm\EntityLay
 C:\Users\recep\OneDrive\Masaüstü\WEB_Class_Projects\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\recep\OneDrive\Masaüstü\WEB_Class_Projects\LessonRecordForm\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\recep\OneDrive\Masaüstü\WEB_Class_Projects\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\LessonRecordForm_6.05.2022\LessonRecordForm\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb

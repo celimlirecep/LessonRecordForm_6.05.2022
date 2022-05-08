@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yAvG5pG+BEZTElfrVU2ktBVKC7YhJRM8ssjc/kjR6YXPWPSa7ahrxADB/WWCoo0jp1CoCGVuAo8C+77YkhwlEg==",
+  "dgSpecHash": "ydhvyZ6Ta4mWBt7VSjxF8/AjQFuTmtU2oTBJZowQVDRaoLGanPHrF/SwBWAsL7gMFfpYG+uRmLZ4aQDj9X8UTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\BusinessLayer\\BusinessLayer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\BusinessLayer\\BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\recep\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.16\\microsoft.aspnetcore.http.features.5.0.16.nupkg.sha512",
+    "C:\\Users\\recep\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\recep\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\EntityLayer\\EntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\EntityLayer\\EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\EntityLayer\\EntityLayer.csproj",
+      "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\EntityLayer\\EntityLayer.csproj",
       "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\EntityLayer\\obj\\",
+      "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",

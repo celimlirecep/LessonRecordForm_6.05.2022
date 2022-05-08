@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concreate
 {
-    public interface StudentRule/*:BaseRule<Student>,IStudentRule*/
+    public interface IStudentRule/*:BaseRule<Student>,IStudentRule*/
     {
     }
 }

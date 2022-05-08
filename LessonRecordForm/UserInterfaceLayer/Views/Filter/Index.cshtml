@@ -1,0 +1,129 @@
+﻿@model IEnumerable<EntityLayer.Student>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentName)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentSurname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentRecortDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentTerm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentDepartmentId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentSurname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentBirthDay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentRecortDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentTerm)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StudentDepartmentId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.StudentId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.StudentId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.StudentId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+
+</table>
+<div>
+    <h1 style="color:red">Student Name Filter (First Letter is "N")</h1>
+    @foreach (var item in Model.Where(x => x.StudentName.StartsWith("N")))
+    {
+        <p>@item.StudentName @item.StudentSurname</p>
+
+    }
+    <h1 style="color:red">Student Term ==2</h1>
+    @foreach (var item in Model.Where(x => x.StudentTerm == '2'))
+    {
+        <p>@item.StudentName @item.StudentSurname</p>
+    }
+    <h1 style="color:red">Get Surname</h1>
+    @foreach (var item in Model.Select(x => x.StudentSurname))
+    {
+        <p>@item</p>
+    }
+    <h1 style="color:red">First Registiration with term 2</h1>
+    <p>@Model.Where(x => x.StudentTerm == '6').First().StudentFullName</p>
+    <h1 style="color:red">Bring the fist two Surname</h1>
+    @foreach (var item in Model.Select(x => x.StudentSurname).Take(2))
+    {
+        <p>@item</p>
+    }
+    <h1 style="color:red">Does anyonehave a name  ""Recep""</h1>
+
+    @if (@Model.Any(x => x.StudentName == "Recep"))
+    {
+        <p>There are  </p>
+    }
+    <h1 style="color:red">Is all students have 2th terms</h1>
+
+    @if (@Model.All(x => x.StudentTerm == '2'))
+    {
+
+
+        <p>Yes All the Same </p>
+    }
+    else
+    {
+        <p>No, not Same </p>
+    }
+    <h1 style="color:red">Order by A-Z According to Name</h1>
+    @foreach (var item in Model.OrderBy(x => x.StudentName))
+    {
+        <p>@item.StudentName @item.StudentSurname @item.StudentBirthDay</p>
+    }
+    <h1 style="color:red">Order by Z-A According to Name</h1>
+    @foreach (var item in Model.OrderByDescending(x => x.StudentName))
+    {
+        <p>@item.StudentName @item.StudentSurname @item.StudentBirthDay</p>
+    }
+
+
+
+
+
+</div>

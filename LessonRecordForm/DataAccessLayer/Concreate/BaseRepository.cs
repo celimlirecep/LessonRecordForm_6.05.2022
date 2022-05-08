@@ -32,9 +32,9 @@ namespace DataAccessLayer.Concreate
 
        
 
-        public List<T> GetAll()
+        public  List<T> GetAll()
         {
-            return _context.Set<T>().ToList();
+            return  _context.Set<T>().ToList();
         }
 
         public T GetSingle(int id)

@@ -11,10 +11,10 @@ namespace DataAccessLayer.Concreate
 {
      public class StudentRepository:BaseRepository<Student>,IStudentRepository
     {
-        private readonly LessonRecordFormContext _context;
+        private readonly LessonRecordFormContext _basecontext;
         public StudentRepository(LessonRecordFormContext context):base(context)
         {
-            _context = context;
+            _basecontext = context;
         }
         private LessonRecordFormContext Context
         {
@@ -22,7 +22,7 @@ namespace DataAccessLayer.Concreate
         }
         public Student CombineStudentLessson(int id)
         {
-            Student student = _context.Students
+            Student student = _basecontext.Students
                 .Where(x=>x.StudentId==id)
                 .Include(x => x.StudentLessons)
                 .ThenInclude(y => y.Lesson)

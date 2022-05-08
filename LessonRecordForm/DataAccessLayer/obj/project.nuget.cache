@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x77PuEkbXyHjMF3MPUzPGDtWlX6TbTtq/zsXrfftVeY0MmLR++J+nbbhiaHtM0AQpNVnytYGj9zyDiuMm+5MIg==",
+  "dgSpecHash": "uYLvJUW61QOF3ub+G8XlNnUq7x9yjoGZ3Ay3Jr2IB79wfrVx3A+4Hyn9vYQ0yzXHGzrGqmhkxBS8OS4BZfLIXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\LessonRecordForm\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\LessonRecordForm_6.05.2022\\LessonRecordForm\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\recep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\recep\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

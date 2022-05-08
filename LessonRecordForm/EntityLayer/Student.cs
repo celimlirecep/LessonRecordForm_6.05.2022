@@ -14,12 +14,13 @@ namespace EntityLayer
         public string StudentSurname { get; set; }
         [NotMapped]
         public string StudentFullName { get { return StudentName + " " + StudentSurname; } }
-        public DateTime StudentBirthDay { get; set; }
+        public DateTime? StudentBirthDay { get; set; }
         public DateTime StudentRecortDate { get; set; }
         public char StudentTerm { get; set; }
         public List<StudentLesson> StudentLessons { get; set; }
         public int StudentDepartmentId { get; set; }
         public Department Department { get; set; }
+     
 
     }
 }
